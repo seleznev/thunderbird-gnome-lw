@@ -1,0 +1,36 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@namespace html url("http://www.w3.org/1999/xhtml");
+
+/* ::::: Colors ::::: */
+
+:root {
+  --toolbar-border-color: ThreeDShadow; /* #a1a1a1; */
+  --second-toolbar-background: #d6d6d6;
+}
+
+/* ::::: Main menu ::::: */
+
+#mail-toolbar-menubar2 {
+  -moz-appearance: none;
+  border-bottom: 1px solid var(--toolbar-border-color);
+  box-shadow: inset 0 -1px #d9d9d9;
+}
+
+/* ::::: Tabs toolbar ::::: */
+
+#tabs-toolbar {
+  background-color: var(--second-toolbar-background);
+  background-image: linear-gradient(to top, var(--toolbar-border-color) 1px, transparent 1px);
+  box-shadow: inset 0 2px 3px -1px hsla(0,0%,0%,.15);
+}
+
+/* ::::: Quick filtes bar ::::: */
+
+#quick-filter-bar {
+  background-color: var(--second-toolbar-background);
+  border-bottom: 1px solid var(--toolbar-border-color);
+}

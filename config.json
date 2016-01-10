@@ -1,0 +1,8 @@
+{
+  "version": "0.1",
+  "min-version": "38.3",
+  "max-version": "45.0a1",
+  "theme": {
+    "xpi": "gnome-thunderbird-theme-lw.xpi"
+  }
+}
